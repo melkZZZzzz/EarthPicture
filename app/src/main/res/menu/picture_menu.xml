@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+	<item
+		android:id="@+id/picture_menu_sync"
+		android:icon="@android:drawable/ic_popup_sync"
+		android:onClick="onSyncAction"
+		android:title="Sync"
+		app:showAsAction="ifRoom|withText">
+	</item>
+	<item
+		android:id="@+id/picture_menu_crop"
+		android:icon="@android:drawable/ic_menu_crop"
+		android:onClick="onCropAction"
+		android:title="Crop"
+		app:showAsAction="ifRoom|withText">
+	</item>
+	<item
+		android:id="@+id/picture_menu_wallpaper"
+		android:icon="@android:drawable/ic_menu_set_as"
+		android:onClick="onWallpaperAction"
+		android:title="Set as Wallpaper"
+		app:showAsAction="ifRoom|withText">
+	</item>
+	<item
+		android:id="@+id/picture_menu_live_wallpaper"
+		android:icon="@android:drawable/ic_menu_mapmode"
+		android:onClick="onLiveWallpaperAction"
+		android:title="Set as live Wallpaper"
+		app:showAsAction="ifRoom|withText">
+	</item>
+	<item
+		android:id="@+id/picture_menu_about"
+		android:icon="@android:drawable/ic_menu_help"
+		android:onClick="onAbout"
+		android:title="About"
+		app:showAsAction="ifRoom|withText">
+	</item>
+</menu>

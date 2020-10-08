@@ -1,0 +1,67 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<PreferenceCategory app:title="@string/preference_header">
+
+		<ListPreference
+			app:key="@string/satellite_pref_key"
+			app:entries="@array/satellite_entries"
+			app:entryValues="@array/satellite_values"
+			app:title="@string/satellite_pref_title"
+			app:useSimpleSummaryProvider="true" />
+
+		<ListPreference
+			android:enabled="false"
+			android:key="@string/background_pref_key"
+			app:entries="@array/satellite_entries"
+			app:entryValues="@array/satellite_values"
+			android:title="@string/background_pref_title"
+			android:singleLine="true"
+			app:useSimpleSummaryProvider="true" />
+
+	</PreferenceCategory>
+
+	<PreferenceCategory app:title="@string/sync_header">
+
+		<SwitchPreferenceCompat
+			app:key="@string/wallpaper_sync_key"
+			app:defaultValue="false"
+			app:isPreferenceVisible="false"
+			app:summaryOff="@string/sync_summary_off"
+			app:summaryOn="@string/sync_summary_on"
+			app:title="@string/sync_title" />
+
+		<ListPreference
+			app:key="@string/wallpaper_sync_mode_key"
+			app:entries="@array/mode_entries"
+			app:entryValues="@array/mode_values"
+			app:title="@string/sync_mode_title"
+			app:useSimpleSummaryProvider="true" />
+
+		<ListPreference
+			app:dependency="@string/wallpaper_sync_key"
+			app:key="@string/wallpaper_sync_period_key"
+			app:entries="@array/period_entries"
+			app:entryValues="@array/period_values"
+			app:title="@string/period_title"
+			app:useSimpleSummaryProvider="true" />
+
+		<SwitchPreferenceCompat
+			app:dependency="@string/wallpaper_sync_key"
+			app:key="@string/background_crop_key"
+			app:defaultValue="false"
+			app:title="@string/background_crop_title" />
+
+		<Preference
+			app:dependency="@string/wallpaper_sync_key"
+			app:key="@string/battery_optimization_key"
+			android:selectAllOnFocus="false"
+			android:selectable="false"
+			android:title="@string/battery_optimization_title"
+			android:summary="@string/battery_optimization_summary"
+			android:widgetLayout="@layout/settings_battery_optimization_button"
+			></Preference>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

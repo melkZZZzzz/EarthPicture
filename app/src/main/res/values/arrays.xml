@@ -1,0 +1,122 @@
+<resources>
+
+	<string-array name="satellite_entries">
+		<item>0 degree Atmospheric Motion Vectors</item>
+		<item>0 degree Fire</item>
+		<item>0 degree Precipitation rate at ground</item>
+		<item>0 degree Infrared 3.9 (Color)</item>
+		<item>0 degree Infrared 3.9 (Black and White)</item>
+		<item>0 degree Infrared 10.8 (Color)</item>
+		<item>0 degree Infrared 10.8 (Black and White)</item>
+		<item>0 degree Multi-Sensor Precipitation Estimate</item>
+		<item>0 degree Airmass</item>
+		<item>0 degree Ash</item>
+		<item>0 degree Convection</item>
+		<item>0 degree Dust</item>
+		<item>0 degree EView</item>
+		<item>0 degree Fog</item>
+		<item>0 degree Microphysics</item>
+		<item>0 degree Natural Colour Enhanced</item>
+		<item>0 degree Natural Colour</item>
+		<item>0 degree Solar Day</item>
+		<item>0 degree Tropical Airmass</item>
+		<item>0 degree Visible 0.6 (Color)</item>
+		<item>0 degree Visible 0.6 (Black and White)</item>
+		<item>0 degree Water Vapor 0.62 (Black and White)</item>
+		<item>41.5 degree Atmospheric Motion Vectors</item>
+		<item>41.5 degree Fire</item>
+		<item>41.5 degree Infrared 3.9 (Color)</item>
+		<item>41.5 degree Infrared 3.9 (Black and White)</item>
+		<item>41.5 degree Infrared 10.8 (Color)</item>
+		<item>41.5 degree Infrared 10.8 (Black and White)</item>
+		<item>41.5 degree Multi-Sensor Precipitation Estimate</item>
+		<item>41.5 degree Airmass</item>
+		<item>41.5 degree Ash</item>
+		<item>41.5 degree Convection</item>
+		<item>41.5 degree Dust</item>
+		<item>41.5 degree EView</item>
+		<item>41.5 degree Fog</item>
+		<item>41.5 degree Microphysics</item>
+		<item>41.5 degree Natural Colour Enhanced</item>
+		<item>41.5 degree Natural Colour</item>
+		<item>41.5 degree Solar Day</item>
+		<item>41.5 degree Tropical Airmass</item>
+		<item>41.5 degree Visible 0.6 (Color)</item>
+		<item>41.5 degree Visible 0.6 (Black and White)</item>
+		<item>41.5 degree Water Vapor 0.62 (Black and White)</item>
+	</string-array>
+	<string-array name="satellite_values">
+		<item>EUMETSAT_MSG_AMV_FullResolution.png</item>
+		<item>EUMETSAT_MSG_FIR_FullResolution.png</item>
+		<item>EUMETSAT_MSG_H03B_FullResolution.png</item>
+		<item>EUMETSAT_MSG_IR039Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_IR039_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_IR108Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_IR108_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_MPE_FullResolution.png</item>
+		<item>EUMETSAT_MSG_RGBAirmass_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBAsh_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBConvection_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBDust_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBEView_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBFog_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBMicrophysics_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBNatColourEnhncd_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBNatColour_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBSolarDay_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_RGBTropicalAirmass_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_VIS006Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_VIS006_FullResolution.jpg</item>
+		<item>EUMETSAT_MSG_WV062_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_AMV_FullResolution.png</item>
+		<item>EUMETSAT_MSGIODC_FIR_FullResolution.png</item>
+		<item>EUMETSAT_MSGIODC_IR039Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_IR039_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_IR108Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_IR108_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_MPE_FullResolution.png</item>
+		<item>EUMETSAT_MSGIODC_RGBAirmass_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBAsh_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBConvection_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBDust_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBEView_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBFog_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBMicrophysics_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBNatColourEnhncd_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBNatColour_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBSolarDay_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_RGBTropicalAirmass_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_VIS006Color_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_VIS006_FullResolution.jpg</item>
+		<item>EUMETSAT_MSGIODC_WV062_FullResolution.jpg</item>
+	</string-array>
+
+	<string-array name="period_entries">
+		<item>15mn</item>
+		<item>30mn</item>
+		<item>1h</item>
+		<item>6h</item>
+		<item>12h</item>
+		<item>24h</item>
+	</string-array>
+	<string-array name="period_values">
+		<item>15</item>
+		<item>30</item>
+		<item>60</item>
+		<item>360</item>
+		<item>720</item>
+		<item>1440</item>
+	</string-array>
+
+	<string-array name="mode_entries">
+		<item>Off</item>
+		<item>Wallpaper</item>
+		<item>Live Wallpaper</item>
+	</string-array>
+	<string-array name="mode_values">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+
+</resources>

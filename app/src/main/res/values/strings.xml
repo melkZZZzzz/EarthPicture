@@ -1,0 +1,50 @@
+<resources>
+
+	<string name="app_name">Earth Picture</string>
+	<string name="app_author">ChezOim® (melk@no-log.org)</string>
+	<string name="wallpaper_description">Live pictures from EUropean METeo SATellites</string>
+	<string name="wallpaper_uri">https://www.eumetsat.int</string>
+	<string name="wallpaper_uri_description">EUMETSAT</string>
+
+	<!-- Picture Activity Title -->
+	<string name="title_activity_picture">Earth Picture</string>
+
+	<!-- Preference Activity Title -->
+	<string name="title_activity_settings">Settings</string>
+
+	<!-- About Activity Title -->
+	<string name="title_activity_about">About</string>
+
+	<!-- Preference keys -->
+	<string name="is_app_initialized_key">is_app_initialized</string>
+	<string name="satellite_pref_key">satellite_image_preference</string>
+	<string name="background_pref_key">background_image_preference</string>
+	<string name="wallpaper_sync_in_progress_key">wallpaper_sync_in_progress</string>
+	<string name="wallpaper_sync_key">is_wallpaper_sync_active</string>
+	<string name="wallpaper_sync_mode_key">wallpaper_sync_mode</string>
+	<string name="background_crop_key">background_image_crop</string>
+	<string name="background_crop_left_key">background_crop_left</string>
+	<string name="background_crop_top_key">background_crop_top</string>
+	<string name="background_crop_right_key">background_crop_right</string>
+	<string name="background_crop_bottom_key">background_crop_bottom</string>
+	<string name="wallpaper_sync_period_key">wallpaper_sync_period</string>
+	<string name="earth_picture_unique_work_key">EarthPictureUniqueWork</string>
+	<string name="battery_optimization_key">battery_optimization</string>
+
+	<!-- Preference customization -->
+	<string name="preference_header">@string/app_name</string>
+	<string name="satellite_pref_title">Selected Satellite image</string>
+	<string name="background_pref_title">Wallpaper image</string>
+
+	<!-- Preference Sync -->
+	<string name="sync_header">Wallpaper Preferences</string>
+	<string name="sync_title">Periodic synchronization</string>
+	<string name="sync_summary_on">Auto update</string>
+	<string name="sync_summary_off">Manual update</string>
+	<string name="period_title">Refresh rate</string>
+	<string name="sync_mode_title">Synchronization mode</string>
+	<string name="background_crop_title">Remember last crop area</string>
+	<string name="battery_optimization_title">Battery optimization policy</string>
+	<string name="battery_optimization_summary">It may be needed to tweak battery optimization preference of the application to allow refreshing the wallpaper when leaving the application.</string>
+
+</resources>
